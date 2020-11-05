@@ -40,16 +40,16 @@ public class Login_BaseClass extends SuiteBase
 	@BeforeSuite
 	public void checkSuiteToRun() throws Exception{
 		
-	init();	
+		init();	
 
-		System.out.println("Init in MyEsopsLogin base");
+		System.out.println("Init in Login base");
 		//To set TestSuiteList.xls file's path In FilePath Variable.
 		ExcelPath = TestSuiteListExcel;
 		SheetName = "SuitesList";
-		SuiteName = "MyEsopsLogin";
+		SuiteName = "LoginData";
 		ToRunColumnName = "SuiteToRun";
 		//Bellow given syntax will Insert log In applog.log file.
-				Add_Log.info("Execution started for MyEsopsLogin.");
+				Add_Log.info("Execution started for Admin.");
 				
 				//If SuiteToRun !== "y" then SuiteOne will be skipped from execution.
 				if(!SuiteUtility.checkToRunUtility(ExcelPath, SheetName,ToRunColumnName,SuiteName)){			
@@ -63,6 +63,4 @@ public class Login_BaseClass extends SuiteBase
 				SuiteUtility.WriteResultUtility(ExcelPath, SheetName, "Skipped/Executed", SuiteName, "Executed");		
 			
 }
-	
-
 }

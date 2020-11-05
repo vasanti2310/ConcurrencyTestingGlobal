@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite" thread-count="2" parallel="tests" >
+<test name="OperaTest">
+<!-- version-72 -->
+<parameter name="browser" value="Opera" />
+<parameter name="UserId" value="103537" />
+<parameter name="Password" value="esop1234" />
+<parameter name="NewPassword" value="Esop#1234" />
+<parameter name="companyid" value="infosys1_test" />
+<parameter name="URL" value="https://demo.esopdirect.com/TESTING/MOBILEAPP/GLOBAL_UI/MYESOPS/Login.aspx" />
+<parameter name="Ans1" value="1" />
+<parameter name="Ans2" value="1" />
+<parameter name="Path" value="D:\Testing Team Automation\ConcurrancyTestingGlobal\src\CMLFiles\vv2.pdf" />
+<parameter name="DepositoryName" value="NSDL" />
+<parameter name="DematAcctype" value="Repatriable" />
+<parameter name="DepositoryParticipantName" value="asas" />
+<parameter name="DepositoryParticipantID" value="IN213120" />
+<parameter name="ClientDematACNo" value="12345608" />
+<parameter name="NameRecord" value="vv2"/>
+<classes>
+<class name="TestScripts.Operacl">
+</class>
+</classes>
+</test>
+</suite>

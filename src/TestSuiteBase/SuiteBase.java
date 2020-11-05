@@ -46,7 +46,7 @@ public class SuiteBase {
 	public void init() throws IOException {
 		Add_Log = Logger.getLogger("rootLogger");
 		TestSuiteListExcel = new Read_XLS(System.getProperty("user.dir") + "\\src\\Excels\\TestSuiteList.xls");
-		TestCaseListExcelOne = new Read_XLS(System.getProperty("user.dir") + "\\src\\Excels\\MyEsopsLogin.xls");
+		TestCaseListExcelOne = new Read_XLS(System.getProperty("user.dir") + "\\src\\Excels\\LoginData.xls");
 				
 	}
 
@@ -59,9 +59,9 @@ public class SuiteBase {
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
 			 wait = new WebDriverWait(driver,120);
-		} else if (browserName.equalsIgnoreCase("chrome"))
+		} else if (browserName.equalsIgnoreCase("Chrome"))
 		{
-			String exePath = "D:\\Testing Team Automation\\driver\\chromedriver.exe";
+			String exePath = "D:\\Testing Team Automation\\SeleniumDriver\\chromedriver.exe";
 			System.setProperty("webdriver.chrome.driver", exePath);
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
@@ -69,7 +69,7 @@ public class SuiteBase {
 		} else if (browserName.equalsIgnoreCase("IE")) 
 		{
 			System.setProperty("webdriver.ie.driver",
-					"D:\\Testing Team Automation\\driver\\IEDriverServer.exe");
+					"D:\\Testing Team Automation\\SeleniumDriver\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 			driver.manage().window().maximize();
 			 wait = new WebDriverWait(driver,120);

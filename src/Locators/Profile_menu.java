@@ -116,6 +116,11 @@ public static WebElement UserLogo(WebDriver driver)
 		element = driver.findElement(By.id("UploadfilesCML")); 
 		return element;
 	}
+	public static WebElement ActualFileName(WebDriver driver)
+	{
+		element = driver.findElement(By.id("UploadfilesCML")); 
+		return element;
+	}
 	public static WebElement btn_Upload(WebDriver driver)
 	{
 		element = driver.findElement(By.id("btnUploadfileTax")); 
