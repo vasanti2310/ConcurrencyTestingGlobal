@@ -46,6 +46,7 @@ public class Login_Locator {
 		
 		return element;
 	}
+	
 	public static WebElement SeqAns1(WebDriver driver)
 	{
 	element = driver.findElement(By.id("txtSecurityQuestion_answer1"));

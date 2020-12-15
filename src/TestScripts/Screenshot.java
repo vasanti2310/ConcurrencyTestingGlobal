@@ -15,7 +15,7 @@ public class Screenshot {
 	
 		TakesScreenshot srcShot = ((TakesScreenshot)driver);
 		File srcFile = srcShot.getScreenshotAs(OutputType.FILE);
-		File destFile = new File("D:\\Testing Team Automation\\SanityTesting\\src\\Screenshots\\"+System.currentTimeMillis()+".png");
+		File destFile = new File("D:\\Testing Team Automation\\ConcurrencyTestingGlobal\\src\\Screenshots\\"+System.currentTimeMillis()+".png");
 		String errorFilePath = destFile.getAbsolutePath();
 		Files.copy(srcFile, destFile);
 		return errorFilePath;
