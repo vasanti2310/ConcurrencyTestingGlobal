@@ -3,16 +3,16 @@
 
 <suite name="TestSuite" thread-count="2" parallel="tests" >
 
-<test name="OperaTest">
+<!-- <test name="OperaTest">
 <parameter name="browser" value="Opera" />
 <parameter name="UserId" value="103537" />
 <parameter name="Password" value="esop1234" />
 <parameter name="NewPassword" value="Esop#1234" />
-<parameter name="companyid" value="infosys1_test" />
-<parameter name="URL" value="https://demo.esopdirect.com/TESTING/MOBILEAPP/GLOBAL_UI/MYESOPS/Login.aspx" />
+<parameter name="companyid" value="Infosys1" />
+<parameter name="URL" value="https://staging.esopdirect.com/GlobalMyESOPs/Login.aspx" />
 <parameter name="Ans1" value="1" />
 <parameter name="Ans2" value="1" />
-<parameter name="Path" value="D:\Testing Team Automation\ConcurrancyTestingGlobal\src\CMLFiles\vv2.pdf" />
+<parameter name="Path" value="D:\Testing Team Automation\ConcurrencyTestingGlobal\src\CMLFiles\Opera.pdf" />
 <parameter name="DepositoryName" value="NSDL" />
 <parameter name="DematAcctype" value="Repatriable" />
 <parameter name="DepositoryParticipantName" value="asas" />
@@ -20,21 +20,22 @@
 <parameter name="ClientDematACNo" value="12345608" />
 <parameter name="NameRecord" value="vv2"/>
 <classes>
-<class name="TestScripts.Operacl">
+<class name="TestScripts.CMLTesting">
 </class>
 </classes>
 </test>
-
+ -->
+ 
 <test name="ChromeTest">
 <parameter name="browser" value="Chrome" />
-<parameter name="UserId" value="105310" />
+<parameter name="UserId" value="1000149" />
 <parameter name="Password" value="esop1234" />
 <parameter name="NewPassword" value="Esop#1234" />
-<parameter name="companyid" value="infosys1_test" />
-<parameter name="URL" value="https://demo.esopdirect.com/TESTING/MOBILEAPP/GLOBAL_UI/MYESOPS/Login.aspx" />
-<parameter name="Ans1" value="1" />
-<parameter name="Ans2" value="1" />
-<parameter name="Path" value="D:\Testing Team Automation\ConcurrancyTestingGlobal\src\CMLFiles\vv.pdf" />
+<parameter name="companyid" value="infosys1" />
+<parameter name="URL" value="https://staging.esopdirect.com/GlobalMyESOPs/Login.aspx" />
+<parameter name="Ans1" value="01" />
+<parameter name="Ans2" value="01" />
+<parameter name="Path" value="D:\Testing Team Automation\ConcurrencyTestingGlobal\src\CMLFiles\Chrome.pdf" />
 <parameter name="DepositoryName" value="NSDL" />
 <parameter name="DematAcctype" value="Repatriable" />
 <parameter name="DepositoryParticipantName" value="asas" />
@@ -50,14 +51,14 @@
 <test name="FirefoxTest">
 
 <parameter name="browser" value="Firefox" />
-<parameter name="UserId" value="101479" />
+<parameter name="UserId" value="10010" />
 <parameter name="Password" value="esop1234" />
 <parameter name="NewPassword" value="Esop#1234" />
-<parameter name="companyid" value="infosys1_test" />
-<parameter name="URL" value="https://demo.esopdirect.com/TESTING/MOBILEAPP/GLOBAL_UI/MYESOPS/Login.aspx" />
+<parameter name="companyid" value="infosys1" />
+<parameter name="URL" value=" https://staging.esopdirect.com/GlobalMyESOPs/Login.aspx" />
 <parameter name="Ans1" value="1" />
 <parameter name="Ans2" value="1" />
-<parameter name="Path" value="D:\Testing Team Automation\ConcurrancyTestingGlobal\src\CMLFiles\vv1.pdf" />
+<parameter name="Path" value="D:\Testing Team Automation\ConcurrencyTestingGlobal\src\CMLFiles\Firefox.pdf" />
 <parameter name="DepositoryName" value="NSDL" />
 <parameter name="DematAcctype" value="Repatriable" />
 <parameter name="DepositoryParticipantName" value="asas" />
@@ -80,11 +81,11 @@
 <parameter name="UserId" value="103537" />
 <parameter name="Password" value="esop1234" />
 <parameter name="NewPassword" value="Esop#1234" />
-<parameter name="companyid" value="infosys1_test" />
-<parameter name="URL" value="https://demo.esopdirect.com/TESTING/MOBILEAPP/GLOBAL_UI/MYESOPS/Login.aspx" />
+<parameter name="companyid" value="Infosys1" />
+<parameter name="URL" value=" https://staging.esopdirect.com/GlobalMyESOPs/Login.aspx" />
 <parameter name="Ans1" value="1" />
 <parameter name="Ans2" value="1" />
-<parameter name="Path" value="D:\Testing Team Automation\ConcurrancyTestingGlobal\src\CMLFiles\vv2.pdf" />
+<parameter name="Path" value="D:\Testing Team Automation\ConcurrancyTestingGlobal\src\CMLFiles\IE.pdf" />
 <parameter name="DepositoryName" value="NSDL" />
 <parameter name="DematAcctype" value="Repatriable" />
 <parameter name="DepositoryParticipantName" value="asas" />
@@ -103,16 +104,15 @@
 </test> -->
 
 <test name="EdgeTest">
-
 <parameter name="browser" value="Edge" />
-<parameter name="UserId" value="103537" />
+<parameter name="UserId" value="10032" />
 <parameter name="Password" value="esop1234" />
 <parameter name="NewPassword" value="Esop#1234" />
-<parameter name="companyid" value="infosys1_test" />
-<parameter name="URL" value="https://demo.esopdirect.com/TESTING/MOBILEAPP/GLOBAL_UI/MYESOPS/Login.aspx" />
-<parameter name="Ans1" value="1" />
-<parameter name="Ans2" value="1" />
-<parameter name="Path" value="D:\Testing Team Automation\ConcurrancyTestingGlobal\src\CMLFiles\vv2.pdf" />
+<parameter name="companyid" value="Infosys1" />
+<parameter name="URL" value=" https://staging.esopdirect.com/GlobalMyESOPs/Login.aspx" />
+<parameter name="Ans1" value="01" />
+<parameter name="Ans2" value="01" />
+<parameter name="Path" value="D:\Testing Team Automation\ConcurrencyTestingGlobal\src\CMLFiles\Edge.pdf" />
 <parameter name="DepositoryName" value="NSDL" />
 <parameter name="DematAcctype" value="Repatriable" />
 <parameter name="DepositoryParticipantName" value="asas" />
@@ -120,13 +120,9 @@
 <parameter name="ClientDematACNo" value="12345608" />
 <parameter name="NameRecord" value="vv2"/>
 <classes>
-
-<class name="TestScripts.EdgeBrwsr">
-
+<class name="TestScripts.CMLTesting">
 </class>
-
-</classes>
-
+</classes> 
 </test>
 
 </suite>
